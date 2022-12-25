@@ -4,36 +4,45 @@
   padding: 0;
   margin: 0;
 }
-body{
+body {
   font-size: 1rem;
   color: #fff;
   background-color: var(--Background);
-  font-family: 'Oxygen', sans-serif; /*General Font*/
+  font-family: "Oxygen", sans-serif; /*General Font*/
 }
 /* Roots */
-:root{--Header: #f6b319}
-:root{--Background: #61122f}
-:root{--Footer: #363636}
-:root{--Text: #557c3e}
+:root {
+  --Header: #f6b319;
+}
+:root {
+  --Background: #61122f;
+}
+:root {
+  --Footer: #363636;
+}
+:root {
+  --Text: #557c3e;
+}
 /* Navbar Header */
-#header-nav{
+#header-nav {
   background-color: var(--Header) !important;
   border-radius: 0;
   border: 0;
 }
-#Logo{
+#Logo {
   background: url("/IMG/Logo-IMG.png");
   background-size: cover;
   width: 18.75rem;
   height: 9.375rem;
   margin: 10px 15px 10px 0;
 }
-.navbar-brand{
+.navbar-brand {
   padding-top: 25px;
- margin-top: 20px;
+  margin-top: 20px;
 }
-.navbar-brand h1{ /*Restaurant name*/
-  font-family: 'Lora', serif;
+.navbar-brand h1 {
+  /*Restaurant name*/
+  font-family: "Lora", serif;
   color: var(--Text);
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -41,67 +50,103 @@ body{
   text-shadow: 2px 2px 2px #222;
   margin-top: 0;
   margin-bottom: 4px;
-  line-height: .75;
+  line-height: 0.75;
 }
-.navbar-brand a{
+.navbar-brand a {
   text-decoration: none;
 }
-.navbar-brand a:hover{
+.navbar-brand a:hover {
   text-decoration: overline var(--Text);
 }
-.navbar-brand p{ /*Kosher Certification*/
+.navbar-brand p {
+  /*Kosher Certification*/
   color: #000;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-top: 15px;
 }
-.navbar-brand p span{
+.navbar-brand p span {
   vertical-align: middle;
 }
-#nav-list a{
- color: #951C49;
- text-align: center;
- border-radius: 1.875rem;
- cursor: pointer;
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+  border-radius: 1.875rem;
+  cursor: pointer;
 }
 #nav-list a:hover {
-background: #E7E7E7;
-border-radius: 1.875rem;
-text-decoration: underline;
+  background: #e7e7e7;
+  border-radius: 1.875rem;
+  text-decoration: underline;
 }
-#nav-list a span{
+#nav-list a span {
   font-size: 1.8rem;
 }
-#Number{ /* Phone Number */  
+#Number {
+  /* Phone Number */
   margin-top: 5px;
   font-size: 1.8rem;
-  color: #951C49;
+  color: #951c49;
   text-align: right;
   padding-bottom: 0;
   cursor: pointer;
 }
-#we-deliver{ /* We Deliver */
-color: #557c3e;
-font-weight: 500;
-text-align: right;
-padding-right: 15px;
+#we-deliver {
+  /* We Deliver */
+  color: #557c3e;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 15px;
 }
-#Menu-list{
+#Menu-list {
   position: absolute;
-  right: 60px;top: 10px
+  right: 60px;
+  top: 10px;
 }
-#Menu-items{
+#Menu-items {
   color: black;
   font-weight: 600;
 }
-.hr{
+.hr {
   display: flex;
   justify-content: center;
 }
-hr{
+hr {
   display: inline-block;
   width: 700px;
   color: var(--Header);
   border: 0.0625rem solid;
   opacity: 1;
+}
+/* ----------Media Queries---------- */
+@media only screen and (max-width: 990px) {
+  #Logo {
+    display: none;
+  }
+  #header-nav {
+    height: 150px;
+  }
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  #website-name {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #Menu-list {
+    display: flex;
+    justify-content: center;
+  }
+  #we-deliver {
+    color: white;
+    text-align: center;
+  }
+  #Number {
+    color: white;
+    text-align: center;
+  }
 }
