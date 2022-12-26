@@ -100,8 +100,10 @@ body {
 }
 #Menu-list {
   position: absolute;
-  right: 60px;
-  top: 10px;
+  right: 3.75rem;
+  top: 0.625rem;
+  background-color: var(--Header) !important;
+  border-radius: 1.25rem;
 }
 #Menu-items {
   color: black;
@@ -113,40 +115,58 @@ body {
 }
 hr {
   display: inline-block;
-  width: 700px;
+  width: 43.75rem;
   color: var(--Header);
   border: 0.0625rem solid;
   opacity: 1;
 }
-/* ----------Media Queries---------- */
+/* ----------Media Queries---------- */ /* Header */
 @media only screen and (max-width: 990px) {
   #Logo {
     display: none;
   }
   #header-nav {
-    height: 150px;
+    height: 5rem;
   }
   .navbar-brand {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-left: 200px;
   }
-  #website-name {
-    text-align: center;
-    margin: 0 auto;
+  .navbar-brand h1 {
+    font-size: 1.5rem;
+  }
+  .navbar-brand p {
+    display: none;
   }
   #Menu-list {
     display: flex;
     justify-content: center;
   }
-  #we-deliver {
-    color: white;
+  #navbarNav{
+    width: 768px;
+    margin: 0 auto;
+  }
+  #Phone{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #Number, #we-deliver {
+    color: black;
     text-align: center;
   }
-  #Number {
-    color: white;
-    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-brand h1 {
+    display: none;
+  }
+  #navbarNav{
+    width: 320px;
+  }
+  #Menu-list{
+    position: absolute;
+    left: 3.5rem;
+    top: 1rem;
   }
 }
