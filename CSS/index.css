@@ -89,7 +89,9 @@ body {
   color: #951c49;
   text-align: right;
   padding-bottom: 0;
-  cursor: pointer;
+}
+#Number:hover{
+  text-decoration: underline;
 }
 #we-deliver {
   /* We Deliver */
@@ -121,6 +123,23 @@ hr {
   opacity: 1;
 }
 /* ----------Media Queries---------- */ /* Header */
+@media only screen and (max-width: 1199px){
+  #header-nav{
+    height: 200px;
+  }
+  .navbar-brand h1{
+    font-size: 1.2rem;
+  }
+  #Menu-list {
+    position: absolute;
+    right: 3.75rem;
+    top: 1.50rem;
+  }
+  .navbar-brand p{
+    font-size: .8rem;
+    font-weight: 700;
+  }
+}
 @media only screen and (max-width: 990px) {
   #Logo {
     display: none;
@@ -170,3 +189,4 @@ hr {
     top: 1rem;
   }
 }
+/* ----------End of Header Media Queries---------- */ 
