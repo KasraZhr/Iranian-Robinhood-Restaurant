@@ -90,7 +90,7 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-#Number:hover{
+#Number:hover {
   text-decoration: underline;
 }
 #we-deliver {
@@ -122,21 +122,26 @@ hr {
   border: 0.0625rem solid;
   opacity: 1;
 }
+/* -----Content----- */
+.container  .RobinPIC{
+  box-shadow: 0 0 50px #3f0c1f;
+  border: 2px solid #3f0c1f;
+}
 /* ----------Media Queries---------- */ /* Header */
-@media only screen and (max-width: 1199px){
-  #header-nav{
+@media only screen and (max-width: 1199px) {
+  #header-nav {
     height: 200px;
   }
-  .navbar-brand h1{
+  .navbar-brand h1 {
     font-size: 1.2rem;
   }
   #Menu-list {
     position: absolute;
     right: 3.75rem;
-    top: 1.50rem;
+    top: 1.5rem;
   }
-  .navbar-brand p{
-    font-size: .8rem;
+  .navbar-brand p {
+    font-size: 0.8rem;
     font-weight: 700;
   }
 }
@@ -162,16 +167,17 @@ hr {
     display: flex;
     justify-content: center;
   }
-  #navbarNav{
+  #navbarNav {
     width: 768px;
     margin: 0 auto;
   }
-  #Phone{
+  #Phone {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  #Number, #we-deliver {
+  #Number,
+  #we-deliver {
     color: black;
     text-align: center;
   }
@@ -180,13 +186,70 @@ hr {
   .navbar-brand h1 {
     display: none;
   }
-  #navbarNav{
+  #navbarNav {
     width: 320px;
   }
-  #Menu-list{
+  #Menu-list {
     position: absolute;
     left: 3.5rem;
     top: 1rem;
   }
 }
-/* ----------End of Header Media Queries---------- */ 
+/* *****Large devices only***** */
+/* Content */
+@media (min-width: 1200px) {
+  #Number2{
+    display: none;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 42.1875rem;
+    background-size: cover;
+  }
+}
+/* *****Medium devices only***** */
+/* Content */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #Number2 {
+    display: none;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 34.875rem;
+    background-size: cover;
+  }
+}
+/* *****Small devices only***** */
+/* Content */
+@media (min-width: 768px) and (max-width: 991px) {
+  #Number2 {
+    display: none;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 27rem;
+    background-size: cover;
+  }
+}
+/* ***** Extra small devices only***** */
+/* Content */
+@media (max-width: 767px) {
+  #Number2 {
+    background-color: var(--Header);
+    width: calc(100% - 2%);
+    height: 3.125rem;
+    border-radius: .5rem;
+    margin-bottom: 15px;
+  }
+  .content-text{
+    text-align: center;
+    color: var(--Background);
+    text-shadow: 0 0 5px;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 22rem;
+    background-size: cover;
+  }
+}
+/* ----------End of Header Media Queries---------- */
