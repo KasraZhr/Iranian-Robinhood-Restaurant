@@ -182,7 +182,58 @@ hr {
     text-align: center;
   }
 }
-@media only screen and (max-width: 767px) {
+/* -----Content------ */
+#menu-title, #specials-title, #map-title{
+  width: 100%;
+  height: 15.625rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+#menu-title:hover, #specials-title:hover, #map-title:hover{
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+/* *****Large devices only***** */
+@media (min-width: 1200px) {
+  /* Content */
+  #Number2{
+    display: none;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 42.1875rem;
+    background-size: cover;
+  }
+}
+/* *****Medium devices only***** */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Content */
+  #Number2 {
+    display: none;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 34.875rem;
+    background-size: cover;
+  }
+}
+/* *****Small devices only***** */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Content */
+  #Number2 {
+    display: none;
+  }
+  .RobinPIC {
+    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
+    height: 27rem;
+    background-size: cover;
+  }
+}
+/* ***** Extra small devices only***** */
+@media (max-width: 767px) {
+  /* Header */
   .navbar-brand h1 {
     display: none;
   }
@@ -194,46 +245,7 @@ hr {
     left: 3.5rem;
     top: 1rem;
   }
-}
-/* *****Large devices only***** */
-/* Content */
-@media (min-width: 1200px) {
-  #Number2{
-    display: none;
-  }
-  .RobinPIC {
-    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
-    height: 42.1875rem;
-    background-size: cover;
-  }
-}
-/* *****Medium devices only***** */
-/* Content */
-@media (min-width: 992px) and (max-width: 1199px) {
-  #Number2 {
-    display: none;
-  }
-  .RobinPIC {
-    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
-    height: 34.875rem;
-    background-size: cover;
-  }
-}
-/* *****Small devices only***** */
-/* Content */
-@media (min-width: 768px) and (max-width: 991px) {
-  #Number2 {
-    display: none;
-  }
-  .RobinPIC {
-    background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
-    height: 27rem;
-    background-size: cover;
-  }
-}
-/* ***** Extra small devices only***** */
-/* Content */
-@media (max-width: 767px) {
+  /* Content */
   #Number2 {
     background-color: var(--Header);
     width: calc(100% - 2%);
