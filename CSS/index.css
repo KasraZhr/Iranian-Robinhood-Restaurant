@@ -347,11 +347,7 @@ hr {
   #address,
   #comment {
     text-align: center;
-  }
-  #Food-classification{
-    width: 246px;
-    height: 215px;
-  }
+  } 
 }
 /* ----------End of Header Media Queries---------- */
 /* ********************MENU CATEGORY PAGE******************** */
@@ -378,6 +374,9 @@ hr {
 }
 .category-title:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+}
+.hr-div{
+  text-align: center;
 }
 #menu-title-description {
   margin-bottom: 50px;
