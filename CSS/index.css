@@ -187,6 +187,10 @@ box-shadow: 0 1px 5px 1px #cccccc;
  .panel-footer div.row{
   margin-bottom: 35px;
  }
+ #comment{
+  font-style: italic;
+  margin-top: 40px;
+ } /* End of Footer */
 /* ----------Media Queries---------- */ /* Header */
 @media only screen and (max-width: 1199px) {
   #header-nav {
@@ -321,6 +325,17 @@ box-shadow: 0 1px 5px 1px #cccccc;
     background: url(/IMG/Robinhood\ Restaurant.jpg) no-repeat;
     height: 22rem;
     background-size: cover;
+  }
+  /* Footer */
+  #extrasmall-hr{
+  display: inline-block;
+  width: 50%;
+  color: var(--Header);
+  border: 0.0625rem solid;
+  opacity: 1;
+  }
+  #hours, #address , #comment{
+    text-align: center;
   }
 }
 /* ----------End of Header Media Queries---------- */
