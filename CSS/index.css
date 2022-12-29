@@ -123,11 +123,13 @@ hr {
   opacity: 1;
 }
 /* -----Content----- */
-.container  .RobinPIC{
+.container .RobinPIC {
   box-shadow: 0 0 50px #3f0c1f;
   border: 2px solid #3f0c1f;
 }
-#menu-title, #specials-title, #map-title{
+#menu-title,
+#specials-title,
+#map-title {
   width: 100%;
   height: 15.625rem;
   margin-bottom: 15px;
@@ -136,20 +138,24 @@ hr {
   border: 2px solid #3f0c1f;
   overflow: hidden;
 }
-#menu-title:hover, #specials-title:hover, #map-title:hover{
-box-shadow: 0 1px 5px 1px #cccccc;
+#menu-title:hover,
+#specials-title:hover,
+#map-title:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-title{
+#menu-title {
   background: url(/IMG/Menu.jpg);
   background-position: center;
   background-size: cover;
 }
-#specials-title{
+#specials-title {
   background: url(/IMG/Specials.jpg);
   background-position: center;
   background-size: cover;
 }
-#menu-title span, #specials-title span, #map-title span{
+#menu-title span,
+#specials-title span,
+#map-title span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -158,39 +164,42 @@ box-shadow: 0 1px 5px 1px #cccccc;
   font-size: 1.6rem;
   text-transform: uppercase;
   background-color: #000;
-  color: #fff;  
-  opacity: .8;
+  color: #fff;
+  opacity: 0.8;
 }
- /* -----Footer----- */
- .panel-footer{
+/* -----Footer----- */
+.panel-footer {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
- }
- #hours span, #address span{
+}
+#hours span,
+#address span {
   text-decoration: underline;
   color: var(--Text);
   text-shadow: 2px 2px 2px #222;
- }
- #hours, #address{
+}
+#hours,
+#address {
   line-height: 2;
- }
- #hours > span, #address > span{
+}
+#hours > span,
+#address > span {
   font-size: 1.3em;
- }
- #address  p{
+}
+#address p {
   font-size: 1rem;
   line-height: 1.8;
- }
- .panel-footer div.row{
+}
+.panel-footer div.row {
   margin-bottom: 35px;
- }
- #comment{
+}
+#comment {
   font-style: italic;
   margin-top: 40px;
- } /* End of Footer */
+} /* End of Footer */
 /* ----------Media Queries---------- */ /* Header */
 @media only screen and (max-width: 1199px) {
   #header-nav {
@@ -249,7 +258,7 @@ box-shadow: 0 1px 5px 1px #cccccc;
 /* *****Large devices only***** */
 @media (min-width: 1200px) {
   /* Content */
-  #Number2{
+  #Number2 {
     display: none;
   }
   .RobinPIC {
@@ -258,7 +267,7 @@ box-shadow: 0 1px 5px 1px #cccccc;
     background-size: cover;
   }
   /* Footer */
-  #extrasmall-hr{
+  #extrasmall-hr {
     display: none;
   }
 }
@@ -274,7 +283,7 @@ box-shadow: 0 1px 5px 1px #cccccc;
     background-size: cover;
   }
   /* Footer */
-  #extrasmall-hr{
+  #extrasmall-hr {
     display: none;
   }
 }
@@ -290,7 +299,7 @@ box-shadow: 0 1px 5px 1px #cccccc;
     background-size: cover;
   }
   /* Footer */
-  #extrasmall-hr{
+  #extrasmall-hr {
     display: none;
   }
 }
@@ -313,10 +322,10 @@ box-shadow: 0 1px 5px 1px #cccccc;
     background-color: var(--Header);
     width: calc(100% - 2%);
     height: 3.125rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     margin-bottom: 15px;
   }
-  .content-text{
+  .content-text {
     text-align: center;
     color: var(--Background);
     text-shadow: 0 0 5px;
@@ -327,15 +336,49 @@ box-shadow: 0 1px 5px 1px #cccccc;
     background-size: cover;
   }
   /* Footer */
-  #extrasmall-hr{
-  display: inline-block;
-  width: 50%;
-  color: var(--Header);
-  border: 0.0625rem solid;
-  opacity: 1;
+  #extrasmall-hr {
+    display: inline-block;
+    width: 50%;
+    color: var(--Header);
+    border: 0.0625rem solid;
+    opacity: 1;
   }
-  #hours, #address , #comment{
+  #hours,
+  #address,
+  #comment {
     text-align: center;
+  }
+  #Food-classification{
+    width: 246px;
+    height: 215px;
   }
 }
 /* ----------End of Header Media Queries---------- */
+/* ********************MENU CATEGORY PAGE******************** */
+.category-title {
+  position: relative;
+  border: 2px solid #3f0c1f;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-title span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+.category-title:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-title-description {
+  margin-bottom: 50px;
+} /* END OF MENU CATEGORY PAGE */
