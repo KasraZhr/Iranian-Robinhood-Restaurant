@@ -271,6 +271,15 @@ hr {
   #extrasmall-hr {
     display: none;
   }
+  /* ----------AMERICAN-PIZZA PAGE---------- */
+  #food-separator {
+    display: none;
+  }
+  .menu-item-title {
+    width: auto;
+    margin-right: 50px;
+    margin-left: 42px;
+  }
 }
 /* *****Medium devices only***** */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -285,6 +294,15 @@ hr {
   }
   /* Footer */
   #extrasmall-hr {
+    display: none;
+  }
+  .menu-item-title {
+    width: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  /* ----------AMERICAN-PIZZA PAGE---------- */
+  #food-separator {
     display: none;
   }
 }
@@ -302,6 +320,17 @@ hr {
   /* Footer */
   #extrasmall-hr {
     display: none;
+  }
+  /* ----------AMERICAN-PIZZA PAGE---------- */
+  #food-separator {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .menu-item-title {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 /* ***** Extra small devices only***** */
@@ -348,7 +377,18 @@ hr {
   #address,
   #comment {
     text-align: center;
-  } 
+  }
+  /* ----------AMERICAN-PIZZA PAGE---------- */
+  #food-separator {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .menu-item-title {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 }
 /* ----------End of Header Media Queries---------- */
 /* ********************MENU CATEGORY PAGE******************** */
@@ -376,38 +416,39 @@ hr {
 .category-title:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-.category-title img{
+.category-title img {
   transition: all ease-in-out 0.5s;
 }
-.category-title img:hover{
+.category-title img:hover {
   transform: scale(1.5);
 }
-.hr-div{
+.hr-div {
   text-align: center;
 }
 #menu-title-description {
   margin-bottom: 50px;
 } /* END OF MENU CATEGORY PAGE */
 /* ----------AMERICAN-PIZZA PAGE---------- */
-.card{
+.card {
   border-radius: 2rem;
   box-shadow: 0 1px 5px 1px rgb(56, 54, 54);
   position: relative;
   padding: 0;
 }
-.card:hover{
+.card:hover {
   box-shadow: 0 1px 5px 1px var(--Text);
 }
-.menu-item-photo img, .card{
+.menu-item-photo img,
+.card {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   transition: all ease-in-out 0.5s;
 }
-.card:hover > .menu-item-photo img{
+.card:hover > .menu-item-photo img {
   transform: scale(1.2);
   transform: translateY(12px);
 }
-#menu-item-title{
+#menu-item-title {
   font-size: 1.5rem;
   text-align: center;
   text-decoration: overline;
@@ -416,17 +457,35 @@ hr {
 .card-text {
   text-align: center;
 }
-#menu-item-price{
-  margin-left: 148px;
+#menu-item-price {
+  text-align: center;
   text-decoration: underline;
 }
- .btn{
-margin-left: 135px;
+.btn {
+  display: block;
 }
-.menu-item-photo div{
+#button {
+  color: #000;
+}
+.btn svg {
+  color: var(--Background);
+}
+.btn:hover > svg{
+  color: #fff;
+}
+.btn:hover {
+  background-color: var(--Background);
+  color: #fff;
+}
+.menu-item-photo div {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 5rem;
   background-color: #557c3e;
+  text-align: center;
+}
+#menu-item-description{
+  font-style: italic;
+  font-size: .9em;
 }
