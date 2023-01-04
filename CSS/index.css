@@ -332,6 +332,9 @@ hr {
     margin-bottom: 20px;
     margin-top: 20px;
   }
+ .last-food-separator{
+    display: none;
+  }
 }
 /* ***** Extra small devices only***** */
 @media (max-width: 767px) {
@@ -389,6 +392,9 @@ hr {
     margin-bottom: 20px;
     margin-top: 20px;
   }
+  .last-food-separator{
+    display: none;
+  }
 }
 /* ----------End of Header Media Queries---------- */
 /* ********************MENU CATEGORY PAGE******************** */
@@ -434,6 +440,7 @@ hr {
   box-shadow: 0 1px 5px 1px rgb(56, 54, 54);
   position: relative;
   padding: 0;
+  margin-bottom: 20px;
 }
 .card:hover {
   box-shadow: 0 1px 5px 1px var(--Text);
@@ -481,9 +488,10 @@ hr {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 5rem;
+  width: 2.3rem;
   background-color: #557c3e;
   text-align: center;
+  border-radius: 5rem;
 }
 #menu-item-description{
   font-style: italic;
