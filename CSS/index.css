@@ -388,3 +388,45 @@ hr {
 #menu-title-description {
   margin-bottom: 50px;
 } /* END OF MENU CATEGORY PAGE */
+/* ----------AMERICAN-PIZZA PAGE---------- */
+.card{
+  border-radius: 2rem;
+  box-shadow: 0 1px 5px 1px rgb(56, 54, 54);
+  position: relative;
+  padding: 0;
+}
+.card:hover{
+  box-shadow: 0 1px 5px 1px var(--Text);
+}
+.menu-item-photo img, .card{
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  transition: all ease-in-out 0.5s;
+}
+.card:hover > .menu-item-photo img{
+  transform: scale(1.2);
+  transform: translateY(12px);
+}
+#menu-item-title{
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: overline;
+  color: #557c3e;
+}
+.card-text {
+  text-align: center;
+}
+#menu-item-price{
+  margin-left: 148px;
+  text-decoration: underline;
+}
+ .btn{
+margin-left: 135px;
+}
+.menu-item-photo div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 5rem;
+  background-color: #557c3e;
+}
