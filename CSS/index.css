@@ -24,6 +24,16 @@ body {
   --Text: #557c3e;
 }
 /* Navbar Header */
+#home {
+  background: #e7e7e7;
+  border-radius: 1.875rem;
+  width: 80px;
+  margin: 0 auto;
+}
+button.navbar-toggler {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
 #header-nav {
   background-color: var(--Header) !important;
   border-radius: 0;
@@ -332,7 +342,7 @@ hr {
     margin-bottom: 20px;
     margin-top: 20px;
   }
- .last-food-separator{
+  .last-food-separator {
     display: none;
   }
 }
@@ -392,7 +402,7 @@ hr {
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  .last-food-separator{
+  .last-food-separator {
     display: none;
   }
 }
@@ -477,7 +487,7 @@ hr {
 .btn svg {
   color: var(--Background);
 }
-.btn:hover > svg{
+.btn:hover > svg {
   color: #fff;
 }
 .btn:hover {
@@ -493,7 +503,7 @@ hr {
   text-align: center;
   border-radius: 5rem;
 }
-#menu-item-description{
+#menu-item-description {
   font-style: italic;
-  font-size: .9em;
+  font-size: 0.9em;
 }
