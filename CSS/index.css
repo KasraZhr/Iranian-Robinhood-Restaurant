@@ -26,7 +26,6 @@ body {
 /* Navbar Header */
 #home {
   background: #e7e7e7;
-  border-radius: 1.875rem;
   width: 80px;
   margin: 0 auto;
 }
@@ -81,12 +80,10 @@ button.navbar-toggler {
 #nav-list a {
   color: #951c49;
   text-align: center;
-  border-radius: 1.875rem;
   cursor: pointer;
 }
 #nav-list a:hover {
   background: #e7e7e7;
-  border-radius: 1.875rem;
   text-decoration: underline;
 }
 #nav-list a span {
