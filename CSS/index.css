@@ -33,6 +33,9 @@ button.navbar-toggler {
   margin-top: -20px;
   margin-bottom: 20px;
 }
+#website-name:hover{
+  text-decoration: overline;
+}
 #header-nav {
   background-color: var(--Header) !important;
   border-radius: 0;

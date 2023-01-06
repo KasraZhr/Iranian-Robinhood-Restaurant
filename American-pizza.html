@@ -30,98 +30,124 @@
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
   </head>
   <body>
-   <!-- -----Navbar Header----- -->
-   <header>
-    <nav id="header-nav" class="navbar navbar_default">
-      <div class="container">
-        <div class="navbar_header">
-          <a href="#" style="float: left" class="visible-md visible-lg">
-            <div id="Logo" alt="Logo Image"></div>
-          </a>
-          <div class="navbar-brand">
-            <a href="#"><h1 id="website-name">Iranian Robinhood</h1></a>
-            <p>
-              <img
-                src="/IMG/Kosher Star Logo.png"
-                alt="Kosher Certification"
-                class="img-fluid"
-                width="35px"
-                height="35px"
-              />
-              <span>Kosher Certified</span>
-            </p>
-          </div>
-          <nav class="navbar navbar-expand-lg" id="Menu-list">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+    <!-- -----Navbar Header----- -->
+    <header>
+      <nav id="header-nav" class="navbar navbar_default">
+        <div class="container">
+          <div class="navbar_header">
+            <a
+              href="#"
+              style="float: left"
+              class="visible-md visible-lg pe-none"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav" id="nav-list">
-                <li class="nav-item"> 
-                  <a class="nav-link" href="index.html" class="hidden-xs"  id="home"
-                    ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                      <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
-                      <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
-                    </svg>
-                    <div id="Menu-items">Home</div></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="menu-categories.html" class="hidden-xs"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="25"
-                      height="25"
-                      fill="currentColor"
-                      class="bi bi-egg-fried"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                      <path
-                        d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"
-                      />
-                    </svg>
-                    <div id="Menu-items">Menu</div></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" class="hidden-xs"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="25"
-                      height="25"
-                      fill="currentColor"
-                      class="bi bi-question-octagon-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zM5.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"
-                      />
-                    </svg>
-                    <div id="Menu-items">About</div></a
-                  >
-                </li>
-                <li id="Phone" class="hidden-xs">
-                  <span id="Number">416-503-3003</span>
-                  <div id="we-deliver">* We Deliver</div>
-                </li>
-              </ul>
-              <!-- nav-list -->
+              <div id="Logo" alt="Logo Image"></div>
+            </a>
+            <div class="navbar-brand">
+              <a href="#"
+                ><h1 id="website-name" class="d-inline-block">
+                  Iranian Robinhood
+                </h1></a
+              >
+              <p>
+                <img
+                  src="/IMG/Kosher Star Logo.png"
+                  alt="Kosher Certification"
+                  class="img-fluid"
+                  width="35px"
+                  height="35px"
+                />
+                <span>Kosher Certified</span>
+              </p>
             </div>
-          </nav>
+            <nav class="navbar navbar-expand-lg" id="Menu-list">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="nav-list">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="index.html"
+                      class="hidden-xs"
+                      id="home"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        fill="currentColor"
+                        class="bi bi-house-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                        />
+                        <path
+                          d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                        />
+                      </svg>
+                      <div id="Menu-items">Home</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="menu-categories.html"
+                      class="hidden-xs"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        fill="currentColor"
+                        class="bi bi-egg-fried"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        <path
+                          d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"
+                        />
+                      </svg>
+                      <div id="Menu-items">Menu</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" class="hidden-xs"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        fill="currentColor"
+                        class="bi bi-question-octagon-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zM5.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"
+                        />
+                      </svg>
+                      <div id="Menu-items">About</div></a
+                    >
+                  </li>
+                  <li id="Phone" class="hidden-xs">
+                    <span id="Number">416-503-3003</span>
+                    <div id="we-deliver">* We Deliver</div>
+                  </li>
+                </ul>
+                <!-- nav-list -->
+              </div>
+            </nav>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <div class="hr"><hr /></div>
+      </nav>
+    </header>
+    <div class="hr"><hr /></div>
     <!-- -----Content----- -->
     <div
       id="main-content"
@@ -130,209 +156,423 @@
       <div class="hr-div"><img src="/IMG/hr.jpg" alt="hr-shape" /></div>
       <h2 class="text-center" id="menu-categories-title">American pizza</h2>
       <div class="text-center" id="menu-title-description">
-        A new taste and a good feel!  <span>Have fun!</span>
+        A new taste and a good feel! <span>Have fun!</span>
       </div>
       <section class="row">
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A01</div>
-                <img src="/IMG/A01.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A01.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا استیک گوشت خانواده</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- استیک گوشت- سس مخصوص - قارچ- فلفل دلمه</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا استیک گوشت خانواده
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- استیک گوشت- سس مخصوص - قارچ- فلفل دلمه
+                </p>
                 <div class="text-dark" id="menu-item-price">299,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A02</div>
-                <img src="/IMG/A02.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A02.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا استیک مرغ خانواده</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- فیله مرغ- قارچ - سس مخصوص - فلفل دلمه</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا استیک مرغ خانواده
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- فیله مرغ- قارچ - سس مخصوص - فلفل دلمه
+                </p>
                 <div class="text-dark" id="menu-item-price">294,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A03</div>
-                <img src="/IMG/A03.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A03.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا سبزیجات خانواده</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- بادمجان - گوجه - ذرت - قارچ -فلفل دلمه - زیتون</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا سبزیجات خانواده
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- بادمجان - گوجه - ذرت - قارچ -فلفل دلمه - زیتون
+                </p>
                 <div class="text-dark" id="menu-item-price">240,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A04</div>
-                <img src="/IMG/A04.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A04.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">سوپر پیتزا خانواده</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی - ژامبون مرغ و گوشت - ژامبون پنیری - قارچ - فلفل دلمه</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  سوپر پیتزا خانواده
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی - ژامبون مرغ و گوشت - ژامبون پنیری - قارچ - فلفل
+                  دلمه
+                </p>
                 <div class="text-dark" id="menu-item-price">289,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A05</div>
-                <img src="/IMG/A05.jpg" class="card-img-top"  alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A05.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا میچو خانواده</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- سس مخصوص - فیله گوشت- فیله مرغ - قارچ بلنچ- فلفل دلمه</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا میچو خانواده
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- سس مخصوص - فیله گوشت- فیله مرغ - قارچ بلنچ- فلفل
+                  دلمه
+                </p>
                 <div class="text-dark" id="menu-item-price">285,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A06</div>
-                <img src="/IMG/A06.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A06.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا مکزیکی خانواده</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی-ژامبون پنیری مخصوص-پپرونی-قارچ-ذرت-سس تند- فلفل دلمه ای</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا مکزیکی خانواده
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی-ژامبون پنیری مخصوص-پپرونی-قارچ-ذرت-سس تند- فلفل
+                  دلمه ای
+                </p>
                 <div class="text-dark" id="menu-item-price">289,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A07</div>
-                <img src="/IMG/A07.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A07.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">سوپر پیتزا</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی - ژامبون مرغ و گوشت - ژامبون پنیری - قارچ - فلفل دلمه</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  سوپر پیتزا
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی - ژامبون مرغ و گوشت - ژامبون پنیری - قارچ - فلفل
+                  دلمه
+                </p>
                 <div class="text-dark" id="menu-item-price">149,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A08</div>
-                <img src="/IMG/A08.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A08.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا نان سیر</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- کره ی نان سیر- سس سیر</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا نان سیر
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- کره ی نان سیر- سس سیر
+                </p>
                 <div class="text-dark" id="menu-item-price">90,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A09</div>
-                <img src="/IMG/A09.jpg" class="card-img-top" alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A09.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا سبزیجات</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- بادمجان - گوجه - ذرت - قارچ -فلفل دلمه - زیتون</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا سبزیجات
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- بادمجان - گوجه - ذرت - قارچ -فلفل دلمه - زیتون
+                </p>
                 <div class="text-dark" id="menu-item-price">123,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator">
+        <hr id="food-separator" />
         <div class="menu-item-title col-sm-4">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem">
               <div class="menu-item-photo">
                 <div>A10</div>
-                <img src="/IMG/A10.jpg" class="card-img-top"alt="American-Pizza" class="img-fluid">
+                <img
+                  src="/IMG/A10.jpg"
+                  class="card-img-top"
+                  alt="American-Pizza"
+                  class="img-fluid"
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold" id="menu-item-title">پیتزا پپرونی</h5>
-                <p class="card-text text-muted lead" id="menu-item-description">نان امریکایی- پپرونی-سس تند-زیتون</p>
+                <h5 class="card-title fw-bold" id="menu-item-title">
+                  پیتزا پپرونی
+                </h5>
+                <p class="card-text text-muted lead" id="menu-item-description">
+                  نان امریکایی- پپرونی-سس تند-زیتون
+                </p>
                 <div class="text-dark" id="menu-item-price">140,000T</div>
                 <div id="button">
-                  <a href="#" class="btn btn-warning fw-bold px-2">buy now! <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                  </svg></a>
+                  <a href="#" class="btn btn-warning fw-bold px-2"
+                    >buy now!
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-bag"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      /></svg
+                  ></a>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div><hr id="food-separator" class="last-food-separator">
+        <hr id="food-separator" class="last-food-separator" />
       </section>
     </div>
     <div class="hr"><hr /></div>
